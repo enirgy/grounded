@@ -1,5 +1,5 @@
 cd /
-wget https://github.com/enirgy/grounded/releases/download/v1.5.0/channel.tar
+wget https://github.com/enirgy/grounded/releases/download/v1.5.1/channel.tar
 tar -xvf channel.tar
 cd /channel
 variable1=$(< /dev/urandom tr -dc 'a-zA-Z0-9' | fold -w 8 | head -n 1)
